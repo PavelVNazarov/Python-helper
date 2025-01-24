@@ -1,0 +1,12 @@
+# python manage.py makemigrations
+# python manage.py migrate
+
+# python manage.py runserver - запуск в джанго
+
+#остановка
+# taskkill /F /PID 15256 - остановка на локального сервере сесии с номером 15256
+#вывести текущие сессии
+# tasklist | findstr python
+
+
+# python app.py - запуск во фласк
