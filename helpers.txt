@@ -1,6 +1,7 @@
 # python manage.py makemigrations
 # python manage.py migrate
 
+# python telegram_bot/bot.py - запуск телеграм бота
 # python manage.py runserver - запуск в джанго
 
 #остановка
@@ -28,3 +29,9 @@ venv\Scripts\activate
 ты можешь автоматически создать файл requirements.txt с помощью команды:
 pip freeze > requirements.txt
 
+
+телеграмм бот и джанго
+pip install python-telegram-bot
+
+В Вашем Django проекте создайте новое приложение (если у Вас его еще нет):
+python manage.py startapp telegram_bot
